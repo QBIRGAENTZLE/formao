@@ -8,44 +8,6 @@
 get_header();
 ?>
 
-<div class="brand">Business Casual</div>
-<div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
-
-<!-- Navigation -->
-<nav class="navbar navbar-default" role="navigation">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-            <a class="navbar-brand" href="index.html">Business Casual</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-                <li>
-                    <a href="blog.html">Blog</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
 
 <div class="container">
 
@@ -62,6 +24,7 @@ get_header();
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
+
                         <div class="item active">
                             <img class="img-responsive img-full" src="wp-content/uploads/2017/01/slide-1.jpg" alt="">
                         </div>
@@ -84,13 +47,13 @@ get_header();
                 <h2 class="brand-before">
                     <small>Welcome to</small>
                 </h2>
-                <h1 class="brand-name">Business Casual</h1>
+                <h1 class="brand-name"><?= get_bloginfo(); ?></h1>
                 <hr class="tagline-divider">
-                <h2>
+                <!--<h2>
                     <small>By
                         <strong>Start Bootstrap</strong>
                     </small>
-                </h2>
+                </h2>-->
             </div>
         </div>
     </div>

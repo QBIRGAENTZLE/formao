@@ -8,7 +8,7 @@ add_theme_support('post-thumbnails');
 
 function custom_upload_mimes($existing_mimes = array()) {
 // add your extension to the array
-    $existing_mimes['exe'] = 'application/exe';
+    //$existing_mimes['exe'] = 'application/exe';
     return $existing_mimes;
 }
 

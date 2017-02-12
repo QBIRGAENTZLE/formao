@@ -4,3 +4,16 @@ Author: Birgaentzlé Quentin
 Author URI: http://www.qubix.fr
 Description: Thème WordPress de l'association FormAo
 */
+
+/* MODIFICATIONS GENERALES */
+
+a.no-a-style {
+    text-decoration: none;
+    color:white;
+}
+
+a.no-a-style:hover {
+    text-decoration: none;
+    color:white;
+}
+
