@@ -17,3 +17,15 @@ a.no-a-style:hover {
     color:white;
 }
 
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.margin-b-25px {
+    margin-bottom: 25px;
+}

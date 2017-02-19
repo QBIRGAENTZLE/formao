@@ -20,7 +20,6 @@
 
 <script src="/wp-content/lib/jquery/jquery.min.js"></script>
 <script src="/wp-content/lib/bootstrap/js/bootstrap.min.js"></script>
-<script src="/wp-content/themes/formao/js/script.js"></script>
 
 </body>
 </html>

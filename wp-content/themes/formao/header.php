@@ -11,6 +11,7 @@
         <meta charset="<?php bloginfo('charset'); ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/wp-content/lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/wp-content/lib/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="/wp-content/themes/formao/css/business-casual.css">
         <link rel="stylesheet" href="/wp-content/themes/formao/style.css">
         <!-- Fonts -->
@@ -37,7 +38,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                    <a class="navbar-brand" href="index.html"><?= get_bloginfo(); ?></a>
+                    <a class="navbar-brand" href="/"><?= get_bloginfo(); ?></a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
